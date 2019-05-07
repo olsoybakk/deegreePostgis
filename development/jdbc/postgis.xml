@@ -7,7 +7,7 @@
 
   <!-- Configuration of DataSource properties -->
   <Property name="driverClassName" value="org.postgresql.Driver" />
-  <Property name="url" value="jdbc:postgresql://deegreepostgis_db_1/development" />
+  <Property name="url" value="jdbc:postgresql://deegree-postgis-db/development" />
   <Property name="username" value="postgres" />
   <Property name="password" value="mysecretpassword" />
   <Property name="poolPreparedStatements" value="true" />

@@ -2,6 +2,7 @@ version: '3.3'
 
 services:
   db:
+    container_name: deegree-postgis-db
     build: ./
     image: deegree-postgis-develop
     ports:
@@ -12,6 +13,7 @@ services:
       POSTGRES_DB: development
 
   deegree:
+    container_name: deegree-postgis-wfs
     depends_on:
       - db
     image: deegree/deegree3-docker
