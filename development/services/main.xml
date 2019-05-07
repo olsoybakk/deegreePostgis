@@ -1,6 +1,6 @@
 <deegreeServiceController xmlns="http://www.deegree.org/services/controller" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" configVersion="3.2.0" xsi:schemaLocation="http://www.deegree.org/services/controller http://schemas.deegree.org/services/controller/3.2.0/controller.xsd">
   <ReportedUrls>
-    <Services>http://localhost:8080/services</Services>
-    <Resources>localhost:8080/resources</Resources>
+    <Services>http://localhost:8181/deegree-webservices/services</Services>
+    <Resources>localhost:8181/deegree-webservices/resources</Resources>
   </ReportedUrls>
 </deegreeServiceController>
