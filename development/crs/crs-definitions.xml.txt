@@ -1,0 +1,16 @@
+<crs:CompoundCRS>
+    <crs:Id>EPSG:25832</crs:Id>        
+	<crs:Id>urn:ogc:def:crs:EPSG:25832</crs:Id>
+	<crs:Name>ETRS89 / UTM zone 32N +NN54 height</crs:Name>
+	<crs:Version>2015-05-21</crs:Version>
+	<crs:Description>Inserted by hand.</crs:Description>
+    <crs:AreaOfUse>6.0,57.93,12.0,65.76</crs:AreaOfUse>
+	<crs:AreaOfUse>Norway - onshore between 6°E and 12°E.</crs:AreaOfUse>
+	<crs:UsedCRS>EPSG:25832</crs:UsedCRS>
+	<crs:HeightAxis>
+			<crs:Name>height</crs:Name>
+			<crs:Units>metre</crs:Units>
+			<crs:AxisOrientation>up</crs:AxisOrientation>
+	</crs:HeightAxis>
+	<crs:DefaultHeight>0.0</crs:DefaultHeight>
+</crs:CompoundCRS>
