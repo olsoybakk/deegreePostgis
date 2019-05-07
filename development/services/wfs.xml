@@ -4,6 +4,7 @@
   xsi:schemaLocation="http://www.deegree.org/services/wfs
   http://schemas.deegree.org/services/wfs/3.4.0/wfs_configuration.xsd">
   
+  <EnableTransactions>true</EnableTransactions>
   <QueryCRS>urn:ogc:def:crs:EPSG::4258</QueryCRS>
 
 </deegreeWFS>
