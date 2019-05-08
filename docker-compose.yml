@@ -1,10 +1,12 @@
 version: '3.3'
 
 services:
-  db:
-    container_name: deegree-postgis-db
+  postgresql:
+    container_name: deegreepostgis_db
     build: ./
-    image: deegree-postgis-develop
+    image: deegreepostgis
+    volumes:
+      - db_volume:/var/lib/postgresql/data
     ports:
       - "5444:5432"
     restart: always
@@ -13,9 +15,9 @@ services:
       POSTGRES_DB: development
 
   deegree:
-    container_name: deegree-postgis-wfs
+    container_name: deegreepostgis_wfs
     depends_on:
-      - db
+      - postgresql
     image: deegree/deegree3-docker
     ports:
       - "8181:8080"
@@ -24,3 +26,6 @@ services:
     restart: always
     environment:
       DEEGREE_WORKSPACE_ROOT: /deegree
+
+volumes:
+  db_volume:
