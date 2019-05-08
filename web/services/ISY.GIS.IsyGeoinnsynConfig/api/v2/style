@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <Name></Name>
+    <UserStyle>
+      <Title>Test</Title>
+      <Abstract></Abstract>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Punkt</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>50000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Geometry> 
+              <ogc:PropertyName>app:geometry</ogc:PropertyName>
+            </Geometry>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <CssParameter name="fill">#FF0000</CssParameter>
+              </Mark>
+              <Size>
+                <Literal>18</Literal>
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+    <UserStyle>
+      <Title></Title>
+      <Abstract></Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Punkt</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>50000</MaxScaleDenominator>
+          <PointSymbolizer>
+            <Geometry> 
+              <ogc:PropertyName>app:geometry</ogc:PropertyName>
+            </Geometry>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <CssParameter name="fill">#00FF00</CssParameter>
+              </Mark>
+              <Size>
+                <Literal>24</Literal>
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

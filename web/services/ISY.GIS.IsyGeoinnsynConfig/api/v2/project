@@ -1,0 +1,607 @@
+{
+	"config": {
+		"mapbound": [
+			{
+				"epsg": "EPSG:23031",
+				"extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:23032",
+				"extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:23033",
+				"extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:23034",
+				"extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:23035",
+				"extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:23036",
+				"extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25831",
+				"extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25832",
+				"extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25833",
+				"extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25834",
+				"extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25835",
+				"extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:25836",
+				"extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32631",
+				"extent": "-1500000.0, 3500000.0, 4045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32632",
+				"extent": "-2000000.0, 3500000.0, 3545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32633",
+				"extent": "-2500000.0, 3500000.0, 3045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32634",
+				"extent": "-3000000.0, 3500000.0, 2545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32635",
+				"extent": "-3500000.0, 3500000.0, 2045984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:32636",
+				"extent": "-4000000.0, 3500000.0, 1545984.0, 9045984.0"
+			},
+			{
+				"epsg": "EPSG:4326",
+				"extent": "-180, -90, 180, 90"
+			},
+			{
+				"epsg": "EPSG:3857",
+				"extent": "-20037508.34, -20037508.34, 20037508.34, 20037508.34"
+			},
+			{
+				"epsg": "EPSG:900913",
+				"extent": "-20037508.34, -20037508.34, 20037508.34, 20037508.34"
+			},
+			{
+				"epsg": "EPSG:54009",
+				"extent": "-18000000.0, -9000000.0, 18000000.0, 9000000.0"
+			},
+			{
+				"epsg": "EPSG:3006",
+				"extent": "-1200000.0, 4700000.0, 2600000.0, 8500000.0"
+			}
+		],
+		"project": {
+			"displaycenter": "570130,7032300",
+			"sitetitle": "GeoInnsyn - test",
+			"headertitle": "GeoInnsyn - test",
+			"displaycenterepsgcode": "EPSG:25832",
+			"displayprojectionepsgcode": "EPSG:25832",
+			"displaysetscale": "12",
+			"mapbackgroundcolor": "#FFFFFF",
+			"defaultmunicipality": "5001",
+			"displaymaptype": "0",
+			"minimizebuttons": "false",
+			"sak": "false",
+			"showheader": "true",
+			"showcoordsportable": "false",
+			"displayprojectionprefix": "Euref89 UTM",
+			"credits": "© NoIS, Geovekst og kommunene",
+			"layout": [
+				{
+					"presetname": "0",
+					"enablemousepositionctrl": "false",
+					"enablenavigationctrl": "true",
+					"enablescalectrl": "false",
+					"enablescalelinectrl": "true"
+				},
+				{
+					"presetname": "1",
+					"enablemousepositionctrl": "false",
+					"enablenavigationctrl": "true",
+					"enablescalectrl": "false",
+					"enablescalelinectrl": "true"
+				}
+			],
+			"defaultkommune": "5001",
+			"searchadresse": "17",
+			"searchsted": "9",
+			"searchmatr": "15",
+			"searchkoord": "15",
+			"webservices": {
+				"usesinglegiurl": "false"
+			},
+			"codelists": {
+				"codelist": {
+					"id": "Custom"
+				}
+			},
+			"name": "delesaker",
+			"searchparams": {
+				"searchparam": [
+					{
+						"name": "ssr",
+						"title": "Stedsnavn",
+						"hasurl": "false"
+					},
+					{
+						"name": "matr",
+						"title": "Matrikkel",
+						"hasurl": "false"
+					},
+					{
+						"name": "gi",
+						"title": "Planidentifikasjon",
+						"hasurl": "false"
+					},
+					{
+						"name": "giname",
+						"title": "Plannavn",
+						"hasurl": "false"
+					}
+				]
+			},
+			"isyauth": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isyauth",
+			"isyattachment": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isyattachment",
+			"isygatekeeper": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isygatekeeper",
+			"isypicklist": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isypicklist",
+			"isyproxy": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isyproxy",
+			"isysearch": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isysearch",
+			"isyexternalapi": "https:\/\/geoinnsyn3.nois.no\/servicesmaster\/isy.gis.isyexternalapi",
+			"isymetadata": "http:\/\/notrhh2qynf2.norconsultad.com\/metadata",
+			"isymetadataclient": "http:\/\/notrhh2qynf2.norconsultad.com\/metadataclient",
+			"disableoffline": "true",
+			"lon": "570130",
+			"lat": "7032300",
+			"zoom": "10",
+			"epsg": "EPSG:25832",
+			"mapepsg": "EPSG:25832"
+		},
+		"vector": [
+			{
+				"guid": "2d2e4a1e-4343-4134-9549-a9713d91ba1a",
+				"layerindex": "3_1",
+				"name": "Docker wfs",
+				"namelng": "Docker wfs",
+				"subname": "Point",
+				"subnamelng": "Point",
+				"provider": "Docker",
+				"display": "true",
+				"hidden": "false",
+				"noproxy": "false",
+				"gatekeeper": "false",
+				"cluster": "false",
+				"clustercount": "false",
+				"options": {
+					"isbaselayer": "false",
+					"minscale": "2000000",
+					"opacity": "1",
+					"ratio": "1",
+					"singletile": "true",
+					"visibility": "false",
+					"protocol": {
+						"url": "http:\/\/localhost:8181\/deegree-webservices\/services\/wfs",
+						"featuretype": "app:point",
+						"version": "1.1.0",
+						"type": "WFS"
+					}
+				},
+				"_stylemapurl": "http:\/\/localhost:8282\/Services\/ISY.GIS.IsyGeoinnsynConfig\/api\/v2\/style?application=osloren&name=point",
+				"jsonstyle": {
+					"image": {
+						"radius": 6,
+						"stroke": {
+							"color": "rgba(255,0,0,0.9)",
+							"width": "20"
+						},
+						"fill": {
+							"color": "rgba(255,255,0,0.4)"
+						}
+					},
+					"_text": {
+						"scale": "2",
+						"text": "Litt tekst:\t{info} og slutt\n{id}",
+						"fill": {
+							"color": "rgba(0,0,100,0.8)"
+						},
+						"stroke": {
+							"color": "rgba(255,255,255,0.8)",
+							"width": "2"
+						}
+					}
+				},
+				"featureinfo": {
+					"title": "{info}",
+					"opennewwindow": "false",
+					"openparentwindow": "false",
+					"showpopup": "false",
+					"showpopuplibrary": "false",
+					"showneighborlist": "false",
+					"tooltiptemplate": "{info}",
+					"showdialog": "true",
+					"showpopupwithdata": "false",
+					"codelistid": "Custom",
+					"editable": "true",
+					"featureinfoelement": [
+						{
+							"name": "info",
+							"text": "info: ",
+							"hascodelist": "false",
+							"datatype": "string",
+							"editable": "true",
+							"attachment": "false"
+						}
+					]
+				},
+				"type": "overlay"
+			}
+		],
+		"wms": [
+			{
+				"guid": "wms.nib",
+				"layerindex": "33",
+				"name": "Ortofoto",
+				"namelng": "Ortofoto",
+				"provider": "GeoNorge",
+				"baat": "wms.nib",
+				"display": "false",
+				"gatekeeper": "false",
+				"hidden": "false",
+				"url": "http:\/\/wms.geonorge.no\/skwms1\/wms.nib",
+				"options": {
+					"isbaselayer": "false",
+					"opacity": "1",
+					"singletile": "true",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/jpeg",
+					"layers": "ortofoto",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"text\/html",
+							"text\/xml"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"name": "ortofoto",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "overlay"
+			}
+		],
+		"wmts": [
+			{
+				"guid": "gk.open_nib_utm32_wmts_v2",
+				"layerindex": "34",
+				"name": "Ortofoto - cache",
+				"namelng": "Ortofoto - cache",
+				"provider": "GeoNorge",
+				"baat": null,
+				"display": "false",
+				"gatekeeper": "false",
+				"hidden": "false",
+				"url": "https:\/\/opencache.statkart.no\/gatekeeper\/gk\/gk.open_nib_utm32_wmts_v2",
+				"options": {
+					"isbaselayer": "false",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/jpeg",
+					"layers": "Nibcache_UTM32_EUREF89_v2",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"text\/html",
+							"text\/xml"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"name": "Nibcache_UTM32_EUREF89_v2",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			}
+		],
+		"base": [
+			{
+				"guid": "wms.norges_grunnkart_graatone",
+				"layerindex": "5",
+				"name": "wms.norges_grunnkart_graatone",
+				"namelng": "wms.norges_grunnkart_graatone",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "https:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart_graatone|https:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart_graatone|https:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart_graatone",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/png",
+					"layers": "norges_grunnkart_graatone",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"application\/vnd.ogc.gml",
+							"text\/html"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"title": "norges_grunnkart_graatone",
+							"name": "norges_grunnkart_graatone",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			},
+			{
+				"guid": "wms.toporaster3",
+				"layerindex": "6",
+				"name": "wms.toporaster3",
+				"namelng": "wms.toporaster3",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "http:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=toporaster3|http:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=toporaster3|http:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=toporaster3",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/png",
+					"layers": "toporaster3",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"application\/vnd.ogc.gml",
+							"text\/html"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"name": "toporaster3",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			},
+			{
+				"guid": "wms.kartdata2",
+				"layerindex": "7",
+				"name": "wms.kartdata2",
+				"namelng": "wms.kartdata2",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "http:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=kartdata2|http:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=kartdata2|http:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=kartdata2",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/png",
+					"layers": "kartdata2",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"application\/vnd.ogc.gml",
+							"text\/html"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"name": "kartdata2",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			},
+			{
+				"guid": "wms.topo4",
+				"layerindex": "8",
+				"name": "wms.topo4",
+				"namelng": "wms.topo4",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "https:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=topo4|https:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=topo4|https:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=topo4",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/png",
+					"layers": "topo4",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"application\/vnd.ogc.gml",
+							"text\/html"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"title": "Topografisk norgeskart 4",
+							"name": "topo4",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			},
+			{
+				"guid": "wms.norges_grunnkart",
+				"layerindex": "9",
+				"name": "wms.norges_grunnkart",
+				"namelng": "wms.norges_grunnkart",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "https:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart|https:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart|https:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.cache?LAYERS=norges_grunnkart",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/png",
+					"layers": "norges_grunnkart",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"text\/plain",
+							"application\/vnd.ogc.gml",
+							"text\/html"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"title": "norges_grunnkart",
+							"name": "norges_grunnkart",
+							"queryable": "false"
+						}
+					]
+				},
+				"type": "map"
+			},
+			{
+				"guid": "wms.nib_utm32_v2",
+				"layerindex": "10",
+				"name": "wms.nib_utm32_v2",
+				"namelng": "wms.nib_utm32_v2",
+				"provider": "GeoNorge",
+				"display": "false",
+				"gatekeeper": "true",
+				"hidden": "false",
+				"url": "https:\/\/gatekeeper1.geonorge.no\/BaatGatekeeper\/gk\/gk.nib_utm32_v2|https:\/\/gatekeeper2.geonorge.no\/BaatGatekeeper\/gk\/gk.nib_utm32_v2|https:\/\/gatekeeper3.geonorge.no\/BaatGatekeeper\/gk\/gk.nib_utm32_v2",
+				"options": {
+					"isbaselayer": "true",
+					"opacity": "1",
+					"singletile": "false",
+					"transitioneffect": "resize",
+					"visibility": "false"
+				},
+				"params": {
+					"format": "image\/jpeg",
+					"layers": "0",
+					"bgcolor": "0x000000",
+					"transparent": "true",
+					"featureinfoformats": {
+						"format": [
+							"application\/vnd.esri.wms_raw_xml",
+							"application\/vnd.esri.wms_featureinfo_xml",
+							"application\/vnd.ogc.wms_xml",
+							"application\/geojson",
+							"text\/xml",
+							"text\/html",
+							"text\/plain"
+						]
+					},
+					"getfeatureinfo": "false"
+				},
+				"layers": {
+					"layer": [
+						{
+							"title": "Nibcache_UTM32_EUREF89",
+							"name": "0",
+							"queryable": "true"
+						}
+					]
+				},
+				"type": "map"
+			}
+		]
+	}
+}
