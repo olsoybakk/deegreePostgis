@@ -27,5 +27,16 @@ services:
     environment:
       DEEGREE_WORKSPACE_ROOT: /deegree
 
+  static-file-server:
+    image: halverneus/static-file-server
+    ports:
+      - "8282:80"
+    volumes:
+      - ./web:/web
+    restart: always
+    environment:
+      - PORT=80
+      - FOLDER=/web
+
 volumes:
   db_volume:

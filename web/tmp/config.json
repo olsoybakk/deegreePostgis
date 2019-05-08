@@ -1,0 +1,14 @@
+{
+    "_configurl": "https://notrhh2qynf2.norconsultad.com/Services/ISY.GIS.IsyGeoinnsynConfig",
+    "_instance": "geoinnsyn2",
+    "_defaultproject": "opencache",
+    "configurl": "http://localhost:8282/Services/ISY.GIS.IsyGeoinnsynConfig",
+    "instance": "gibeta",
+    "defaultproject": "delesaker",
+    "externalServices": {
+        "elevation": "https://www.norgeskart.no/ws/elev.py",
+        "nature": "https://vector.artsdatabanken.no/ogapi/codes/",
+        "admenhet": "https://openwms.statkart.no/skwms1/wms.adm_enheter?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=kommuner&LAYERS=kommuner&INFO_FORMAT=application/vnd.ogc.gml&I=1&J=1&WIDTH=2&HEIGHT=2&",
+        "heraldry": "https://maps.artsdatabanken.no/Fylke/"
+    }
+}
