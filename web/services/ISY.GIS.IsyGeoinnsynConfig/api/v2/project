@@ -215,7 +215,7 @@
 						"radius": 6,
 						"stroke": {
 							"color": "rgba(255,0,0,0.9)",
-							"width": "20"
+							"width": "2"
 						},
 						"fill": {
 							"color": "rgba(255,255,0,0.4)"
