@@ -146,15 +146,15 @@ mapbackgroundcolor: backgroundcolor of the div
                 <hasurl>false</hasurl>
             </searchparam>
         </searchparams>
-        <isyauth>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyauth</isyauth>
-        <isyattachment>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyattachment</isyattachment>
-        <isygatekeeper>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isygatekeeper</isygatekeeper>
-        <isypicklist>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isypicklist</isypicklist>
-        <isyproxy>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyproxy</isyproxy>
-        <isysearch>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isysearch</isysearch>
-        <isyexternalapi>http://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyexternalapi</isyexternalapi>
-        <isymetadata>http://notrhh2qynf2.norconsultad.com/metadata</isymetadata>
-        <isymetadataclient>http://notrhh2qynf2.norconsultad.com/metadataclient</isymetadataclient>
+        <isyauth>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyauth</isyauth>
+        <isyattachment>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyattachment</isyattachment>
+        <isygatekeeper>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isygatekeeper</isygatekeeper>
+        <isypicklist>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isypicklist</isypicklist>
+        <isyproxy>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyproxy</isyproxy>
+        <isysearch>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isysearch</isysearch>
+        <isyexternalapi>https://geoinnsyn3.nois.no/servicesmaster/isy.gis.isyexternalapi</isyexternalapi>
+        <!--<isymetadata>https://notrhh2qynf2.norconsultad.com/metadata</isymetadata>-->
+        <!--<isymetadataclient>http://notrhh2qynf2.norconsultad.com/metadataclient</isymetadataclient>-->
         <disableoffline>true</disableoffline>
     </project>
     <vector type="overlay">
