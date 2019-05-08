@@ -257,6 +257,138 @@
 					]
 				},
 				"type": "overlay"
+			},
+			{
+				"guid": "2d2e4a1e-4343-4134-9549-a9713d91ba1a",
+				"layerindex": "4_1",
+				"name": "Docker wfs",
+				"namelng": "Docker wfs",
+				"subname": "Line",
+				"subnamelng": "Line",
+				"provider": "Docker",
+				"display": "true",
+				"hidden": "false",
+				"noproxy": "false",
+				"gatekeeper": "false",
+				"cluster": "false",
+				"clustercount": "false",
+				"options": {
+					"isbaselayer": "false",
+					"minscale": "2000000",
+					"opacity": "1",
+					"ratio": "1",
+					"singletile": "true",
+					"visibility": "false",
+					"protocol": {
+						"url": "http:\/\/localhost:8181\/deegree-webservices\/services\/wfs",
+						"featuretype": "app:line",
+						"version": "1.1.0",
+						"type": "WFS"
+					}
+				},
+				"_stylemapurl": "http:\/\/localhost:8282\/Services\/ISY.GIS.IsyGeoinnsynConfig\/api\/v2\/style?application=osloren&name=line",
+				"jsonstyle": {
+                    "stroke":
+                    {
+                        "color":"rgba(90,255,90,0.9)",
+                        "width":"2"
+                    },
+                    "fill":
+                    {
+                      "color":"rgba(50,255,50,0.9)"
+
+                    }
+                },
+				"featureinfo": {
+					"title": "{info}",
+					"opennewwindow": "false",
+					"openparentwindow": "false",
+					"showpopup": "false",
+					"showpopuplibrary": "false",
+					"showneighborlist": "false",
+					"tooltiptemplate": "{info}",
+					"showdialog": "true",
+					"showpopupwithdata": "false",
+					"codelistid": "Custom",
+					"editable": "true",
+					"featureinfoelement": [
+						{
+							"name": "info",
+							"text": "info: ",
+							"hascodelist": "false",
+							"datatype": "string",
+							"editable": "true",
+							"attachment": "false"
+						}
+					]
+				},
+				"type": "overlay"
+			},
+			{
+				"guid": "2d2e4a1e-4343-4134-9549-a9713d91ba1a",
+				"layerindex": "4_1",
+				"name": "Docker wfs",
+				"namelng": "Docker wfs",
+				"subname": "Polygon",
+				"subnamelng": "Polygon",
+				"provider": "Docker",
+				"display": "true",
+				"hidden": "false",
+				"noproxy": "false",
+				"gatekeeper": "false",
+				"cluster": "false",
+				"clustercount": "false",
+				"options": {
+					"isbaselayer": "false",
+					"minscale": "2000000",
+					"opacity": "1",
+					"ratio": "1",
+					"singletile": "true",
+					"visibility": "false",
+					"protocol": {
+						"url": "http:\/\/localhost:8181\/deegree-webservices\/services\/wfs",
+						"featuretype": "app:polygon",
+						"version": "1.1.0",
+						"type": "WFS"
+					}
+				},
+				"_stylemapurl": "http:\/\/localhost:8282\/Services\/ISY.GIS.IsyGeoinnsynConfig\/api\/v2\/style?application=osloren&name=polygon",
+				"jsonstyle": {
+                    "stroke":
+                    {
+                        "color":"rgba(255,180,180,0.4)",
+                        "width":"2"
+                    },
+                    "fill":
+                    {
+                      "color":"rgba(255,100,100,0.9)"
+
+                    }
+                },
+				"featureinfo": {
+					"title": "{info}",
+					"opennewwindow": "false",
+					"openparentwindow": "false",
+					"showpopup": "false",
+					"showpopuplibrary": "false",
+					"showneighborlist": "false",
+					"tooltiptemplate": "{info}",
+					"showdialog": "true",
+					"showpopupwithdata": "false",
+					"codelistid": "Custom",
+					"editable": "true",
+					"featureinfoelement": [
+						{
+							"name": "info",
+							"text": "info: ",
+							"hascodelist": "false",
+							"datatype": "string",
+							"editable": "true",
+							"attachment": "false"
+						}
+					]
+				},
+				"type": "overlay"
 			}
 		],
 		"wms": [
