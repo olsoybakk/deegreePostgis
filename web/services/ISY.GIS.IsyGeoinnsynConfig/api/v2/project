@@ -191,7 +191,7 @@
 				"provider": "Docker",
 				"display": "true",
 				"hidden": "false",
-				"noproxy": "false",
+				"noproxy": "true",
 				"gatekeeper": "false",
 				"cluster": "false",
 				"clustercount": "false",
