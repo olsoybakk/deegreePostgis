@@ -9,5 +9,3 @@ rd /S /Q .\web\geoinnsyn
 md .\web\geoinnsyn
 xcopy /E /Y %geoinnsyn_source% .\web\geoinnsyn
 xcopy /E /Y .\web\tmp .\web\geoinnsyn
-
-pause
