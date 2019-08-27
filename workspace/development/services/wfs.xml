@@ -6,5 +6,6 @@
   
   <EnableTransactions>true</EnableTransactions>
   <QueryCRS>urn:ogc:def:crs:EPSG::4258</QueryCRS>
+  <QueryCRS>urn:ogc:def:crs:EPSG::25832</QueryCRS>
 
 </deegreeWFS>
