@@ -223,7 +223,7 @@
 					},
 					"_text": {
 						"scale": "2",
-						"text": "Litt tekst:\t{info} og slutt\n{id}",
+						"text": "Litt tekst:\t{info}",
 						"fill": {
 							"color": "rgba(0,0,100,0.8)"
 						},
@@ -240,7 +240,7 @@
 					"showpopup": "false",
 					"showpopuplibrary": "false",
 					"showneighborlist": "false",
-					"tooltiptemplate": "{info}",
+					"tooltiptemplate": "Info:\t{info}",
 					"showdialog": "true",
 					"showpopupwithdata": "false",
 					"codelistid": "Custom",
@@ -372,7 +372,7 @@
 					"showpopup": "false",
 					"showpopuplibrary": "false",
 					"showneighborlist": "false",
-					"tooltiptemplate": "{info}",
+					"tooltiptemplate": "&lt;h5&gt;^^^&lt;\/h5&gt;test\\ninfo{info}",
 					"showdialog": "true",
 					"showpopupwithdata": "false",
 					"codelistid": "Custom",
