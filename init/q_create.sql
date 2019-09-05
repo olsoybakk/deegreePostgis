@@ -2,7 +2,12 @@ CREATE TABLE public.point
 (
   id serial,
   geometry geometry(Point, 25832),
-  info Text
+  info Text,
+  skjult Text,
+  beskyttet Text,
+  valg Boolean,
+  tall Integer,
+  vedlegg Text
 )
 WITH (
   OIDS=FALSE
@@ -27,11 +32,11 @@ WITH (
 );
 
 -- VALUES(ST_GeomFromText('POINT(63.4123334 10.4044632)', 4258), 'Heisann');
-INSERT INTO public.point(geometry, info)
-VALUES(ST_GeomFromText('POINT(570130 7032300)', 25832), 'Heisann');
+INSERT INTO public.point(geometry, info, beskyttet, skjult)
+VALUES(ST_GeomFromText('POINT(570130 7032300)', 25832), 'Heisann', 'ikke redigerbar', 'usynlig...');
 
-INSERT INTO public.point(geometry, info)
-VALUES(ST_GeomFromText('POINT(570150 7032350)', 25832), 'Hoppsann');
+INSERT INTO public.point(geometry, info, beskyttet, skjult, valg, tall, vedlegg)
+VALUES(ST_GeomFromText('POINT(570150 7032350)', 25832), 'Hoppsann', 'ikke redigerbar', 'usynlig...', true, 123, '');
 
 INSERT INTO public.line(geometry, info)
 VALUES(ST_GeomFromText('LINESTRING(570003.9184570312 7032208.909667968, 570109.0385742188 7032440.967285155, 570377.4584960938 7032440.967285155, 570424.3989257812 7032286.26220703)', 25832), 'Heisann');

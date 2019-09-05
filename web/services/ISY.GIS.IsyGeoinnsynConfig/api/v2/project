@@ -248,11 +248,43 @@
 					"featureinfoelement": [
 						{
 							"name": "info",
-							"text": "info: ",
+							"text": "Info: ",
 							"hascodelist": "false",
 							"datatype": "string",
 							"editable": "true",
 							"attachment": "false"
+						},
+						{
+							"name": "beskyttet",
+							"text": "Beskyttet: ",
+							"hascodelist": "false",
+							"datatype": "string",
+							"editable": "false",
+							"attachment": "false"
+						},
+						{
+							"name": "valg",
+							"text": "Valg: ",
+							"hascodelist": "false",
+							"datatype": "boolean",
+							"editable": "true",
+							"attachment": "false"
+						},
+						{
+							"name": "tall",
+							"text": "Tall: ",
+							"hascodelist": "false",
+							"datatype": "integer",
+							"editable": "true",
+							"attachment": "false"
+						},
+						{
+							"name": "vedlegg",
+							"text": "Vedlegg: ",
+							"hascodelist": "false",
+							"datatype": "string",
+							"editable": "true",
+							"attachment": "true"
 						}
 					]
 				},
