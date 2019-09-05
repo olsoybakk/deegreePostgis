@@ -5,6 +5,7 @@ CREATE TABLE public.point
   info Text,
   skjult Text,
   beskyttet Text,
+  langtekst Text,
   valg Boolean,
   tall Integer,
   vedlegg Text
