@@ -3,4 +3,3 @@ workspace/development/datasources/feature/bbox_cache.properties
 web/geoinnsyn
 web/geoinnsyn3
 data
-build+copy_gi - Terje.cmd
