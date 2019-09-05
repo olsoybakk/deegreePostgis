@@ -263,6 +263,14 @@
 							"attachment": "false"
 						},
 						{
+							"name": "langtekst",
+							"text": "Lang tekst: ",
+							"hascodelist": "false",
+							"datatype": "textarea",
+							"editable": "true",
+							"attachment": "false"
+						},
+						{
 							"name": "valg",
 							"text": "Valg: ",
 							"hascodelist": "false",
