@@ -248,23 +248,23 @@
 					"featureinfoelement": [
 						{
 							"name": "info",
-							"text": "Info: ",
+							"text": "Info",
 							"hascodelist": "false",
-							"datatype": "string",
+							"datatype": "text",
 							"editable": "true",
 							"attachment": "false"
 						},
 						{
 							"name": "beskyttet",
-							"text": "Beskyttet: ",
+							"text": "Beskyttet",
 							"hascodelist": "false",
-							"datatype": "string",
+							"datatype": "text",
 							"editable": "false",
 							"attachment": "false"
 						},
 						{
 							"name": "langtekst",
-							"text": "Lang tekst: ",
+							"text": "Lang tekst",
 							"hascodelist": "false",
 							"datatype": "textarea",
 							"editable": "true",
@@ -272,7 +272,7 @@
 						},
 						{
 							"name": "valg",
-							"text": "Valg: ",
+							"text": "Valg",
 							"hascodelist": "false",
 							"datatype": "boolean",
 							"editable": "true",
@@ -280,17 +280,17 @@
 						},
 						{
 							"name": "tall",
-							"text": "Tall: ",
+							"text": "Tall",
 							"hascodelist": "false",
-							"datatype": "integer",
+							"datatype": "number",
 							"editable": "true",
 							"attachment": "false"
 						},
 						{
 							"name": "vedlegg",
-							"text": "Vedlegg: ",
+							"text": "Vedlegg",
 							"hascodelist": "false",
-							"datatype": "string",
+							"datatype": "text",
 							"editable": "true",
 							"attachment": "true"
 						}
@@ -354,7 +354,7 @@
 					"featureinfoelement": [
 						{
 							"name": "info",
-							"text": "info: ",
+							"text": "info",
 							"hascodelist": "false",
 							"datatype": "string",
 							"editable": "true",
@@ -420,7 +420,7 @@
 					"featureinfoelement": [
 						{
 							"name": "info",
-							"text": "info: ",
+							"text": "info",
 							"hascodelist": "false",
 							"datatype": "string",
 							"editable": "true",
