@@ -1,3 +1,5 @@
 development/datasources/feature/bbox_cache.properties
 workspace/development/datasources/feature/bbox_cache.properties
 web/geoinnsyn
+web/geoinnsyn3
+data

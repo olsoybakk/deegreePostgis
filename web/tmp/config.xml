@@ -1,0 +1,6 @@
+<config>
+    <!-- <configurl>https://geoinnsyn3.nois.no/Services/ISY.GIS.IsyGeoinnsynConfig</configurl> -->
+    <configurl>http://localhost:8282/Services/ISY.GIS.IsyGeoinnsynConfig</configurl>
+    <instance>gibeta</instance>
+    <!--<defaultproject></defaultproject>-->
+</config>
