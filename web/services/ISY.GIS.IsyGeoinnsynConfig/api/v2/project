@@ -356,7 +356,7 @@
 							"name": "info",
 							"text": "info",
 							"hascodelist": "false",
-							"datatype": "string",
+							"datatype": "text",
 							"editable": "true",
 							"attachment": "false"
 						}
@@ -422,7 +422,7 @@
 							"name": "info",
 							"text": "info",
 							"hascodelist": "false",
-							"datatype": "string",
+							"datatype": "text",
 							"editable": "true",
 							"attachment": "false"
 						}
